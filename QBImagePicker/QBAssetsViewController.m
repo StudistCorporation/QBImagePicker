@@ -468,7 +468,7 @@ static CGSize CGSizeScale(CGSize size, CGFloat scale) {
         cell.videoIndicatorView.hidden = NO;
         
         NSInteger minutes = (NSInteger)(asset.duration / 60.0);
-        NSInteger seconds = (NSInteger)ceil(asset.duration - 60.0 * (double)minutes);
+        NSInteger seconds = (NSInteger)floor(asset.duration - 60.0 * (double)minutes);
         cell.videoIndicatorView.timeLabel.text = [NSString stringWithFormat:@"%02ld:%02ld", (long)minutes, (long)seconds];
         
         if (asset.mediaSubtypes & PHAssetMediaSubtypeVideoHighFrameRate) {
