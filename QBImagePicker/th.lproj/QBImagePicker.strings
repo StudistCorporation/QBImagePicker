@@ -1,0 +1,21 @@
+/* 
+  QBImagePicker.strings
+  QBImagePicker
+
+  Created by Katsuma Tanaka on 2015/04/03.
+  Copyright (c) 2015 Katsuma Tanaka. All rights reserved.
+*/
+
+"albums.title" = "รูปภาพ";
+
+"assets.footer.photo" = "%ld รูปภาพ";
+"assets.footer.photos" = "%ld รูปภาพ";
+"assets.footer.video" = "%ld วิดีโอ";
+"assets.footer.videos" = "%ld วิดีโอ";
+"assets.footer.photo-and-video" = "%ld รูปภาพ, %ld วิดีโอ";
+"assets.footer.photos-and-video" = "%ld รูปภาพ, %ld วิดีโอ";
+"assets.footer.photo-and-videos" = "%ld รูปภาพ, %ld วิดีโอ";
+"assets.footer.photos-and-videos" = "%ld รูปภาพ, %ld วิดีโอ";
+
+"assets.toolbar.item-selected" = "%ld ไอเท็มที่เลือก";
+"assets.toolbar.items-selected" = "%ld ไอเท็มที่เลือก";
